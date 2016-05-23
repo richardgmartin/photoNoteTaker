@@ -14,6 +14,7 @@
 		79353F511CE50B250066B4EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79353F4F1CE50B250066B4EA /* LaunchScreen.storyboard */; };
 		79353F5A1CE50F050066B4EA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79353F591CE50F050066B4EA /* Post.swift */; };
 		79353F5D1CE537770066B4EA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79353F5C1CE537770066B4EA /* PostCell.swift */; };
+		794B36EF1CECFF8000192B9E /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B36EE1CECFF8000192B9E /* DataServices.swift */; };
 		79F098241CE652A2009F5898 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F098231CE652A2009F5898 /* AddPostVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		79353F521CE50B250066B4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79353F591CE50F050066B4EA /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		79353F5C1CE537770066B4EA /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		794B36EE1CECFF8000192B9E /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
 		79F098231CE652A2009F5898 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		79353F451CE50B240066B4EA /* PhotoNote */ = {
 			isa = PBXGroup;
 			children = (
+				794B36ED1CECFF6500192B9E /* Services */,
 				79353F581CE50ED00066B4EA /* Model */,
 				79353F5B1CE536E70066B4EA /* View */,
 				79F098221CE64FA2009F5898 /* Controller */,
@@ -86,6 +89,14 @@
 				79353F5C1CE537770066B4EA /* PostCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		794B36ED1CECFF6500192B9E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				794B36EE1CECFF8000192B9E /* DataServices.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		79F098221CE64FA2009F5898 /* Controller */ = {
@@ -171,6 +182,7 @@
 				79353F5A1CE50F050066B4EA /* Post.swift in Sources */,
 				79353F491CE50B240066B4EA /* ViewController.swift in Sources */,
 				79F098241CE652A2009F5898 /* AddPostVC.swift in Sources */,
+				794B36EF1CECFF8000192B9E /* DataServices.swift in Sources */,
 				79353F471CE50B240066B4EA /* AppDelegate.swift in Sources */,
 				79353F5D1CE537770066B4EA /* PostCell.swift in Sources */,
 			);
